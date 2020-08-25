@@ -9,7 +9,7 @@ function Feed() {
 
             {/* Header */}
             <div className="feed_header">
-                <h2>This should be a header</h2>
+                <h2>Home</h2>
             </div>
             
                 
@@ -19,9 +19,13 @@ function Feed() {
             {/* Tweet */}
             <Post/>
             {/* Tweet */}
+            <Post/>
             {/* Tweet */}
+            <Post/>
             {/* Tweet */}
+            <Post/>
             {/* Tweet */}
+            <Post/>
         
         </div>
     )
