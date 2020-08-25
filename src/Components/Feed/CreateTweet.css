@@ -1,0 +1,55 @@
+.tweetBox
+{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background-color);
+    padding-right: 10px;
+
+}
+
+/* form that is inside a tweet box */
+.tweetBox > form
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.createTweet_input
+{
+    padding: 25px;
+    display: flex;
+    
+}
+
+.createTweet_input > input
+{
+    /* This means expand the box to touch till there is space */
+    flex: 1;
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.createTweet_image
+{
+    border: none;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+.tweetBox__tweetBtn
+{
+
+    background-color: var(--twitter-blue) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-transform: inherit !important;
+    border-radius: 50px !important;
+    width: 80px;
+    height: 50px !important;
+    margin-top: 30px !important;
+    margin-left: auto !important;
+
+}

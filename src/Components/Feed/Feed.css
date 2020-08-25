@@ -1,0 +1,39 @@
+.feed
+{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background-color);
+    /* must fit the content */
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+
+/* Hide the scrollbar that appears on the feed */
+/* Below works for Chrome, safari and opera */
+.feed::-webkit-scrollbar
+{
+    display: none;
+}
+
+/* works for rest */
+.feed
+{
+    -ms-overflow-style: none;   /* For Edge */
+    scrollbar-width: none;      /* For firefox */
+}
+
+.feed_header
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background-color);
+    padding: 15px 20px;
+}
+
+.feed_header > h2
+{
+    font-size: 20px;
+    font-weight: 800;
+}

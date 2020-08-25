@@ -1,0 +1,32 @@
+.sidebarOption
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* This means inside of sidebarOption, if we find child of .MuiSvgIcon-root, make padding of 20px */
+.sidebarOption > .MuiSvgIcon-root
+{
+    padding: 20px;
+}
+
+.sidebarOption:hover
+{
+    background-color: aliceblue;
+    border-radius: 120px;
+    color: var(--twitter-blue);
+    transition: color 80ms ease-out;
+}
+
+.sidebarOption > h2
+{
+    font-weight: bold;      /* or can have number like 750 */
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active
+{
+    color: var(--twitter-blue);
+}

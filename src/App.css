@@ -1,0 +1,21 @@
+/* This is declaring the global variable for throughout the body */
+
+body
+{
+    --twitter-blue: #50b7f5;
+    --twitter-background-color: #e6ecf0;
+}
+
+.app
+{
+    /* This is going to change the rule so that all the contents are going to be displayed in a row */
+    display: flex;
+    /* This will make the border height touch the bottom. vh means view height */
+    height: 100vh;
+    max-width: 1300px;
+    /* this means add much as much margin as you can */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+
+}
